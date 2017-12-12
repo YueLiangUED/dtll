@@ -1,0 +1,117 @@
+@charset "utf-8";
+.banner img {
+    display: block;
+    width: 100%;
+}
+body {
+    background-color: #0e7fdd;
+    padding-bottom: 0.5rem;
+}
+.content {
+    padding: 0.49rem 0.32rem;
+}
+.jianjie-box {
+    width: 100%;
+    padding: 0.26rem;
+    background-color: #fee86e;
+    font-size: 0.26rem;
+    border-radius: 0.1rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.jianjie-title {
+    display: inline-block;
+    width: 0.81rem;
+    height: 0.42rem;
+    line-height: 0.42rem;
+    color: #fff;
+    background-color: #0e7fdd;
+    text-align: center;
+    border-radius: 0.05rem;
+}
+.jianjie-text {
+    line-height: 1.8em;
+    color: #00569d;
+    padding-left: 0.1rem;
+}
+.quan-box a {
+    height: 1.47rem;
+    margin: 0.3rem 0.1rem 0;
+    padding: 0.14rem 0.4rem;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: url("../images/quan-bg.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.flex-left {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+.ll-num {
+    width: 1.22rem;
+    height: 1.24rem;
+    background: url("../images/pic_01.png") no-repeat center;
+    background-size: 100% 100%;
+    font-size: 0.5rem;
+    color: #125acb;
+    line-height: 1.24rem;
+    text-align: center;
+}
+.ll-num span {
+    font-size: 0.32rem;
+}
+.ll-text {
+    margin-left: 0.34rem;
+}
+.ll-text .font-blue {
+    font-size: 0.36rem;
+    color: #195bc5;
+    margin-bottom: 0.2rem;
+    
+}
+.ll-text .font-red {
+    font-size: 0.26rem;
+    color: #d22f1c;
+}
+.flex-right {
+    font-size: 0.34rem;
+    color: #407bd9;
+    line-height: 1.6em;
+}
+.tip p {
+    font-size: 0.22rem;
+    color: #fff;
+    margin-top: 0.25rem;
+    text-align: center;
+}
+.gz-box {
+    margin-top: 0.6rem;
+}
+.gz-title {
+    display: block;
+    width: 1.2rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    background: #fee86e;
+    text-align: center;
+    border-radius: 0.05rem;
+    font-size: 0.26rem;
+    color: #0070ce;
+    margin-bottom: 0.3rem;
+    margin-left: 0.1rem;
+}
+.gz-p {
+    display: flex;
+    display: -webkit-flex;
+    font-size: 0.22rem;
+    color: #fff;
+    line-height: 1.6em;
+}
+.gz-index {
+    margin-right: 0.1rem;
+}
